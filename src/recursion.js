@@ -9,9 +9,8 @@
 var factorial = function(n) {
   if ( n <= 1 ) {
     return 1;
-  } else {
-    return n * factorial(n-1);
   }
+  return n * factorial(n-1);
 };
 
 // 2. Compute the sum of an array of integers.
@@ -236,7 +235,7 @@ var tagCount = function(tag, node) {
 // https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search
 
 var binarySearch = function(array, target, min, max) {
-};
+}
 
 // 38. Write a merge sort function.
 // Sample array:  [34,7,23,32,5,62]
